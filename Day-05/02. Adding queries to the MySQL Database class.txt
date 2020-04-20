@@ -1,0 +1,1 @@
+02. Adding queries to the MySQL Database class
