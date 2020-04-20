@@ -33,7 +33,7 @@
 	// $found_user = User::find_by_id(1);
 	// echo $found_user['username'];
 
-	$record = User::find_by_id(1);
+	// $record = User::find_by_id(1);
 	// $user = new User();
 	// $user->username = $record['username'];
 	// $user->password = $record['password'];
@@ -42,14 +42,22 @@
 
 	// now it's longer array, it's as attribute of an object
 	// echo $user->username;
+	$user = User::find_by_id(1);
 	echo $user->full_name();
 
 	echo "<hr />";
 
+	// $users = User::find_all();
 	// $user_set = User::find_all();
 	// while ($user = $database->fetch_array($user_set)) {
 	// 	echo "User: " . $user['username'] . "<br />";
 	// 	echo "Name: " . $user['first_name'] . " ". $user['last_name'] . "<br /><br />";
 	// }
+
+	$users = User::find_all();
+	foreach ($users as $user) {
+		echo "User: " . $user->username . "<br />";
+		echo "Name: " . $user->full_name() . "<br /><br />";
+	}
 
 ?>

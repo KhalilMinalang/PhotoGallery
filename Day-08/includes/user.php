@@ -56,7 +56,7 @@ class User {
 	}
 
 	// create an instance of user object
-	private function instantiate($record) {
+	private static function instantiate($record) {
 		// Could check that $record exist and is an array
 		// Simple, long-form approach:
 		$object = new self;
@@ -68,7 +68,7 @@ class User {
 		// More dynamic, short-form approach:
 		foreach ($record as $attribute => $value) {
 			if ($object->has_attribute($attribute)) {
-				$object->attribute = $value;
+				$object->$attribute = $value;
 			}
 		}
 		return $object;

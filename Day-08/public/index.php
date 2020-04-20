@@ -33,7 +33,8 @@
 	// $found_user = User::find_by_id(1);
 	// echo $found_user['username'];
 
-	$record = User::find_by_id(1);
+	$user = User::find_by_id(1);
+	// $record = User::find_by_id(1);
 	// $user = new User();
 	// $user->username = $record['username'];
 	// $user->password = $record['password'];
