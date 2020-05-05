@@ -8,7 +8,7 @@
 
 	// file system path
 	defined('SITE_ROOT') ? null : 
-		define('SITE_ROOT', 't:'.DS.'xampp'.DS.'htdocs'.DS.'lynda.php'.DS.'photo_gallary'.DS.'Day-16'); // /t/xampp/htdocs/lynda.php/photo_gallary/Day-16
+		define('SITE_ROOT', 't:'.DS.'xampp'.DS.'htdocs'.DS.'lynda.php'.DS.'photo_gallary'.DS.'Day-17'); // /t/xampp/htdocs/lynda.php/photo_gallary/Day-15
 
 	defined('LIB_PATH') ? null : define('LIB_PATH', SITE_ROOT.DS.'includes');
 	// echo LIB_PATH;
@@ -27,7 +27,4 @@
 
 	// load database-related classes
 	require_once(LIB_PATH.DS."user.php");
-
-	// my logger
-	require_once(LIB_PATH.DS."logger.php");
 ?>

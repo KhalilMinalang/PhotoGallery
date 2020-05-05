@@ -22,10 +22,11 @@
 		// var_dump($found_user);
 
 		if ($found_user != false) {
-			
+			// echo "test";
 			$session->login($found_user);
-			$message = "{$found_user->username} logged in.";
-			Logger::log_action('Login', $message);
+
+			// 
+			log_action('Login', "{$found_user->username} logged in.");
 
 			redirect_to('index.php');
 		} else {
