@@ -1,0 +1,5 @@
+2020-05-04 21:53:41 | Log Cleared: by User ID 1
+2020-05-04 22:07:32 | Login: kskoglund logged in.
+2020-05-04 22:07:39 | Login: kskoglund logged in.
+2020-05-04 22:08:17 | Login: kskoglund logged in.
+2020-05-09 08:47:48 | Login: kskoglund logged in.
