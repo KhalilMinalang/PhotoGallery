@@ -1,0 +1,1 @@
+05. Abstracting the database table name
