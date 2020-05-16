@@ -1,0 +1,1 @@
+06. Abstracting the attributes
